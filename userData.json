@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "gender": "Male",
         "name": "Shovon",
         "contact": "01926204425",
@@ -8,19 +8,12 @@
         "photoUrl": "localhos1"
     },
     {
-        "id": 2,
-        "gender": "Male",
-        "name": "Shovon",
-        "contact": "01926204425",
-        "address": "Fultala",
-        "photoUrl": "localhost2"
+        "id": "3",
+        "name": "jaman"
     },
     {
-        "id": 3,
-        "gender": "Male",
-        "name": "Shovon",
-        "contact": "01926204425",
-        "address": "Fultala",
-        "photoUrl": "localhost3"
+        "id": "2",
+        "name": "jaman"
     }
+]
 ]
