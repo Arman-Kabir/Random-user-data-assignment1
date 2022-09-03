@@ -38,16 +38,43 @@ module.exports.allRandomUsers = (req, res, next) => {
 }
 
 module.exports.saveRandomUser = (req, res, next) => {
-    const newData= req.body;
+    const newData = req.body;
     // console.log(newData);
     fs.readFile("userData.json", "utf-8", (err, data) => {
         const loadedData = JSON.parse(data);
-        const updatedData = [...loadedData, newData]; 
+        const updatedData = [...loadedData, newData];
+        const savedData = JSON.stringify(updatedData);
         // console.log(updatedData);
         // console.log(loadedData);         
         // console.log(typeof(loadedData));         
         // console.log(typeof(newData)); 
-        res.send(updatedData); 
-        
+        res.send(updatedData);
+
+        fs.writeFile("userData.json", savedData, function (err) {
+            console.log('saved');
+        });
+    });
+}
+
+
+
+
+
+module.exports.deleteUser = (req, res, next) => {
+    const { id } = req.params;
+    console.log(id);
+    fs.readFile("userData.json", "utf-8", (err, data) => {
+        const loadedData = JSON.parse(data);
+        const updatedData = loadedData.filter(data => data.id != id);
+        const savedData = JSON.stringify(updatedData);
+        // console.log(updatedData);
+        // console.log(loadedData);         
+        // console.log(typeof(loadedData));         
+        // console.log(typeof(newData)); 
+        res.send(savedData);
+
+        fs.writeFile("userData.json", savedData, function (err) {
+            console.log('saved');
+        });
     });
 }

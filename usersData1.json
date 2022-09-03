@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "gender":"Male",
+        "name": "Shovon",
+        "contact":"01926204425",
+        "address":"Fultala",
+        "photoUrl":"localhos1"
+    },
+    {
+        "id": 2,
+        "gender":"Male",
+        "name": "Shovon",
+        "contact":"01926204425",
+        "address":"Fultala",
+        "photoUrl":"localhost2"
+    },
+    {
+        "id": 3,
+        "gender":"Male",
+        "name": "Shovon",
+        "contact":"01926204425",
+        "address":"Fultala",
+        "photoUrl":"localhost3"
+    }
+   
+]

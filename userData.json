@@ -1,27 +1,26 @@
 [
     {
         "id": 1,
-        "gender":"Male",
+        "gender": "Male",
         "name": "Shovon",
-        "contact":"01926204425",
-        "address":"Fultala",
-        "photoUrl":"localhos1"
+        "contact": "01926204425",
+        "address": "Fultala",
+        "photoUrl": "localhos1"
     },
     {
         "id": 2,
-        "gender":"Male",
+        "gender": "Male",
         "name": "Shovon",
-        "contact":"01926204425",
-        "address":"Fultala",
-        "photoUrl":"localhost2"
+        "contact": "01926204425",
+        "address": "Fultala",
+        "photoUrl": "localhost2"
     },
     {
         "id": 3,
-        "gender":"Male",
+        "gender": "Male",
         "name": "Shovon",
-        "contact":"01926204425",
-        "address":"Fultala",
-        "photoUrl":"localhost3"
+        "contact": "01926204425",
+        "address": "Fultala",
+        "photoUrl": "localhost3"
     }
-   
 ]
